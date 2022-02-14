@@ -1,0 +1,6 @@
+#! /bin/bash
+
+cd tests 2> /dev/null ; source test_library.sh 2> /dev/null
+
+all_test_cases
+test_report
